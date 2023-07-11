@@ -16,9 +16,20 @@ body {
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
     padding-left: 240px;
-    padding-right: 240px;
+   
+
+
+
+
+    width: 100%;
     margin-bottom: 150px;
 }
+
+.banner-content {
+    width: 40%;
+    
+}
+
 
 .banner-welcome { 
 color: #272727;
@@ -26,6 +37,7 @@ font-size: 80px;
 font-family: lato;
 font-weight: 800;
 padding-bottom: 32px;
+
 }
 
 .banner-description {
@@ -76,6 +88,7 @@ padding-bottom: 32px;
 .featured-container {
     display: flex;
     justify-content: center;
+    
    
 }
 
@@ -147,7 +160,8 @@ padding-bottom: 32px;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
     padding-left: 395px;
-    padding-right: 395px;
+   
+    width: 100%;
     margin-bottom: 150px;
     margin-top: 150px;
 }
@@ -155,7 +169,8 @@ padding-bottom: 32px;
 
 .hot-deal-content {
     text-align: center;
-    padding-right: 130px;
+    /* padding-right: 130px; */
+    width: 40%;
     
 }
 
@@ -183,4 +198,127 @@ padding-bottom: 32px;
 .hot-deal-img img {
     padding-bottom: 100px;
     padding-top: 100px;
+}
+
+/* instagram section styles  */
+
+.instagram-container {
+    
+}
+
+.instagram-description  {
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 30px;
+}
+
+.insta-pic-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+
+.insta-img-box {
+    
+    width: 20%;
+    
+}
+
+/* subscribe section styles  */
+
+
+.subscribe-section {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.subscribe-container {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    padding-top: 122px;
+    margin-left: 168px;
+    
+}
+
+.subscribe-title {
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 32px;
+}
+
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 48px;
+}
+
+input {
+    width: 40% ;
+    height: 60px;
+    border: 0;
+    padding-left: 10px;
+    
+}
+
+.input {
+    padding-bottom: 121px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: #111010;
+    padding-bottom: 120px;
+}
+
+.footer-title {
+    padding-top: 150px;
+    padding-bottom: 24px;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 24px;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
 }
