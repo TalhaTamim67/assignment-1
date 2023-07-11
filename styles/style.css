@@ -200,7 +200,77 @@ padding-bottom: 32px;
     padding-top: 100px;
 }
 
+
+.off-color {
+    color: #E55473;
+}
+
+
+/* best seller styles  */
+.best-sell-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 150px;
+}
+
+.buy-flower {
+    width: 15%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.btn-buy {
+    border: 0;
+    background-color: black;
+    color: #FFF;
+}
+
+.best-seller-title {
+    text-align: center;
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-decoration: underline #E55473;
+}
+
+.amount {
+    padding-top: 10px;
+    color : #E55473;
+    font-weight: 600;
+}
+
+.buy-flower img {
+    width: 100%;
+    height: 300px;
+}
+
+.facts-title {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.facts-container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+
+
 /* instagram section styles  */
+
+
+
 
 .instagram-container {
     
@@ -295,9 +365,13 @@ footer {
     color: #E55473;
     font-family: Lato;
     font-size: 48px;
-    font-style: normal;
+    
     font-weight: 800;
-    line-height: normal;
+    
+}
+
+.shop-color {
+    color: #FFF;
 }
 
 .footer-description {
