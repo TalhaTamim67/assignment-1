@@ -21,7 +21,7 @@ body {
 
 
 
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 150px;
 }
 
@@ -161,7 +161,7 @@ padding-bottom: 32px;
     background: rgba(229, 84, 115, 0.10);
     padding-left: 395px;
    
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 150px;
     margin-top: 150px;
 }
