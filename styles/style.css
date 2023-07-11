@@ -55,8 +55,9 @@ padding-bottom: 32px;
 
 
 
-.featured-container {
+.featured-section {
     text-align: center;
+    padding-bottom: 195px;
 }
 
 .featured-title {
@@ -68,4 +69,43 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 padding-bottom: 32px;
+}
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.flower-box1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 90px 50px 0px 50px;
+    margin-right: 15px;
+    
+}
+.flower-box2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 90px 50px 0px 50px;
+    margin-right: 15px;
+}
+
+.flower-box3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 90px 50px 0px 50px;
+}
+
+
+.flower-box-title {
+    display: flex;
+    justify-content: center;
+}
+
+.flower-box-title h4 {
+
+    padding: 30px 170px;
+    text-decoration: underline;
 }
