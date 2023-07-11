@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding-left: 240px;
+    padding-right: 240px;
+    margin-bottom: 150px;
+}
+
+.banner-welcome { 
+color: #272727;
+font-size: 80px;
+font-family: lato;
+font-weight: 800;
+padding-bottom: 32px;
+}
+
+.banner-description {
+color: rgba(39, 39, 39, 0.60);
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 32px;
+}
+
+.img {
+    padding-top: 50px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+  
+    font-weight: 700;
+    
+}
+
+
+
+.featured-container {
+    text-align: center;
+}
+
+.featured-title {
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 32px;
+}
